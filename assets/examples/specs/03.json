@@ -1,0 +1,234 @@
+{
+ "base": "base/03.mp4",
+ "words": "words/03.json",
+ "out": "output/03_first_fight.mp4",
+ "emphasis": [
+  "combined.",
+  "well,",
+  "communicate,",
+  "repair,",
+  "forgive,",
+  "stronger",
+  "green",
+  "flag.",
+  "hard"
+ ],
+ "tail": 0.5,
+ "music": [
+  {
+   "file": "music/kronos_quartet_clint_mansell_lux_aeterna_from_requiem_for.mp3",
+   "start": 20.0,
+   "db": -9,
+   "fade_in": 0.5,
+   "fade_out": 1.8
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.15,
+   "name": "click"
+  },
+  {
+   "t": 5.2,
+   "name": "hit",
+   "db": -12
+  },
+  {
+   "t": 5.66,
+   "name": "boom",
+   "db": -14
+  },
+  {
+   "t": 6.77,
+   "name": "paper"
+  },
+  {
+   "t": 7.92,
+   "name": "click",
+   "seed": 1
+  },
+  {
+   "t": 14.24,
+   "name": "paper",
+   "seed": 1,
+   "db": -18
+  },
+  {
+   "t": 22.99,
+   "name": "paper",
+   "seed": 2
+  },
+  {
+   "t": 24.34,
+   "name": "click",
+   "seed": 6
+  },
+  {
+   "t": 27.22,
+   "name": "click",
+   "seed": 7
+  },
+  {
+   "t": 32.53,
+   "name": "sub_drop",
+   "db": -16
+  },
+  {
+   "t": 43.61,
+   "name": "hit",
+   "db": -12
+  },
+  {
+   "t": 44.86,
+   "name": "boom",
+   "db": -14
+  },
+  {
+   "t": 15.06,
+   "name": "paper",
+   "seed": 4
+  },
+  {
+   "t": 16.98,
+   "name": "click",
+   "seed": 3
+  },
+  {
+   "t": 18.03,
+   "name": "click",
+   "seed": 4
+  },
+  {
+   "t": 19.72,
+   "name": "click",
+   "seed": 5
+  }
+ ],
+ "elements": [
+  {
+   "type": "title",
+   "t0": 0.15,
+   "t1": 4.93,
+   "kicker": "The podcast · Episode 25",
+   "text": "The most important\nmoment in a relationship",
+   "y": 190
+  },
+  {
+   "type": "statement",
+   "t0": 5.2,
+   "t1": 6.72,
+   "text": "is the *first fight.*"
+  },
+  {
+   "type": "punch",
+   "t": 5.66
+  },
+  {
+   "type": "split",
+   "t0": 6.77,
+   "t1": 14.24,
+   "panel": {
+    "kind": "grid",
+    "labels": [
+     "The podcast",
+     "Ep. 25 · Commitment"
+    ],
+    "title": "The first fight",
+    "body": "Tells you more about how long it\nwill last than all the good times\ncombined.",
+    "icons": [
+     {
+      "t": 6.77,
+      "name": "heart"
+     },
+     {
+      "t": 7.92,
+      "name": "heart_broken"
+     }
+    ],
+    "icon_x": 540,
+    "icon_y": 540,
+    "icon_size": 360
+   }
+  },
+  {
+   "type": "split",
+   "t0": 15.06,
+   "t1": 22.92,
+   "panel": {
+    "kind": "list",
+    "labels": [
+     "The podcast",
+     "Ep. 25 · Commitment"
+    ],
+    "title": "If you can",
+    "items": [
+     {
+      "t": 15.08,
+      "text": "Fight well"
+     },
+     {
+      "t": 16.98,
+      "text": "Communicate"
+     },
+     {
+      "t": 18.03,
+      "text": "Repair"
+     },
+     {
+      "t": 19.72,
+      "text": "Forgive"
+     }
+    ]
+   }
+  },
+  {
+   "type": "split",
+   "t0": 22.99,
+   "t1": 27.84,
+   "panel": {
+    "kind": "grid",
+    "labels": [
+     "The podcast",
+     "Ep. 25 · Commitment"
+    ],
+    "title": "Stronger as\na couple",
+    "body": "That is a massive green flag.",
+    "icons": [
+     {
+      "t": 22.99,
+      "name": "heart_broken"
+     },
+     {
+      "t": 24.34,
+      "name": "heart_mended"
+     },
+     {
+      "t": 27.22,
+      "name": "flag"
+     }
+    ],
+    "icon_x": 790,
+    "icon_y": 520,
+    "icon_size": 400
+   }
+  },
+  {
+   "type": "intense",
+   "t0": 32.53,
+   "t1": 36.77,
+   "zoom": 1.06,
+   "shake": 3
+  },
+  {
+   "type": "statement",
+   "t0": 43.61,
+   "t1": 45.76,
+   "text": "even though it's\nnot really the\n*right person.*"
+  },
+  {
+   "type": "punch",
+   "t": 44.86
+  }
+ ],
+ "show": "The podcast"
+}

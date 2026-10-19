@@ -1,0 +1,213 @@
+{
+ "format": "long",
+ "show": "The podcast",
+ "base": "base/05.mp4",
+ "out": "output/05_long.mp4",
+ "tail": 0.5,
+ "music": [
+  {
+   "file": "music/nicholas_britell_succession_main_title.mp3",
+   "start": 0.0,
+   "db": -9,
+   "fade_in": 0.3,
+   "fade_out": 1.8
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.16,
+   "name": "click"
+  },
+  {
+   "t": 2.95,
+   "name": "hit",
+   "db": -12
+  },
+  {
+   "t": 3.4,
+   "name": "boom",
+   "db": -14
+  },
+  {
+   "t": 8.5,
+   "name": "click",
+   "seed": 1
+  },
+  {
+   "t": 10.12,
+   "name": "click",
+   "seed": 2
+  },
+  {
+   "t": 11.15,
+   "name": "sub_drop",
+   "db": -16
+  },
+  {
+   "t": 18.97,
+   "name": "paper"
+  },
+  {
+   "t": 26.38,
+   "name": "hit",
+   "db": -12
+  },
+  {
+   "t": 28.1,
+   "name": "boom",
+   "db": -14
+  },
+  {
+   "t": 28.74,
+   "name": "paper",
+   "seed": 1
+  },
+  {
+   "t": 31.84,
+   "name": "paper",
+   "seed": 2,
+   "db": -18
+  },
+  {
+   "t": 41.71,
+   "name": "paper",
+   "seed": 3
+  },
+  {
+   "t": 6.36,
+   "name": "paper",
+   "seed": 6
+  }
+ ],
+ "elements": [
+  {
+   "type": "title",
+   "t0": 0.16,
+   "t1": 2.9,
+   "kicker": "The podcast · Episode 26",
+   "text": "You can't achieve your\nway out of shame"
+  },
+  {
+   "type": "statement",
+   "t0": 2.95,
+   "t1": 4.05,
+   "text": "but it *backfires.*"
+  },
+  {
+   "type": "punch",
+   "t": 3.4
+  },
+  {
+   "type": "split",
+   "t0": 6.36,
+   "t1": 11.15,
+   "panel": {
+    "kind": "grid",
+    "labels": [
+     "The podcast",
+     "Ep. 26 · Failure"
+    ],
+    "title": "Perform your way\nout of shame?",
+    "body": "The more you try, the more\nyou reinforce the shame.",
+    "icons": [
+     {
+      "t": 6.36,
+      "name": "trophy"
+     },
+     {
+      "t": 8.5,
+      "name": "arrow_up"
+     },
+     {
+      "t": 10.12,
+      "name": "heart_broken"
+     }
+    ]
+   }
+  },
+  {
+   "type": "intense",
+   "t0": 11.15,
+   "t1": 15.72,
+   "zoom": 1.06,
+   "shake": 3
+  },
+  {
+   "type": "split",
+   "t0": 18.97,
+   "t1": 26.32,
+   "panel": {
+    "kind": "grid",
+    "labels": [
+     "The podcast",
+     "Ep. 26 · Failure"
+    ],
+    "title": "More views",
+    "body": "won't make you feel\nbetter about yourself.",
+    "icons": [
+     {
+      "t": 18.97,
+      "name": "eye"
+     }
+    ],
+    "counter": {
+     "t0": 19.94,
+     "t1": 25.84,
+     "from": 1204,
+     "to": 1204331,
+     "suffix": " views"
+    }
+   },
+   "parts": 3,
+   "side": "left"
+  },
+  {
+   "type": "statement",
+   "t0": 26.38,
+   "t1": 28.64,
+   "text": "It's just going\nto keep feeling like\nit's *not enough.*"
+  },
+  {
+   "type": "punch",
+   "t": 28.1
+  },
+  {
+   "type": "split",
+   "t0": 28.74,
+   "t1": 31.84,
+   "panel": {
+    "kind": "grid",
+    "labels": [
+     "The podcast",
+     "Ep. 26 · Failure"
+    ],
+    "title": "A bucket with\na hole in it",
+    "body": "Pour in as much as you like.",
+    "icons": [
+     {
+      "t": 28.74,
+      "name": "bucket"
+     }
+    ]
+   }
+  },
+  {
+   "type": "editorial",
+   "t0": 41.71,
+   "t1": 46.72,
+   "icon": "heart_mended",
+   "headline": "Your failures don't make\nyou a bad person.",
+   "parts": 2,
+   "side": "left",
+   "byline": "The podcast"
+  },
+  {
+   "type": "pill",
+   "t0": 33.2,
+   "t1": 36.6,
+   "x": 1500,
+   "y": 760,
+   "text": "Shame  →  guilt"
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+{
+ "base": "base/04.mp4",
+ "words": "words/04.json",
+ "out": "output/04_casanova_not_a_life.mp4",
+ "emphasis": [
+  "casanova",
+  "sick.",
+  "sad.",
+  "lost",
+  "happy.",
+  "collection",
+  "experiences.",
+  "alone.",
+  "grave",
+  "fireworks",
+  "aesthetic"
+ ],
+ "proper_nouns": [
+  "Giacomo",
+  "Casanova",
+  "Venice"
+ ],
+ "tail": 0.5,
+ "music": [
+  {
+   "file": "music/1_four_seasons_spring_allegro_vivaldi.mp3",
+   "start": 0.0,
+   "t0": 0.0,
+   "t1": 10.28,
+   "db": -9,
+   "fade_in": 0.3,
+   "fade_out": 1.4
+  },
+  {
+   "file": "music/antonio_vivaldi_four_seasons_winter_allegro_non_molto.mp3",
+   "start": 22.2,
+   "t0": 9.5,
+   "db": -8,
+   "fade_in": 1.0,
+   "fade_out": 1.8
+  }
+ ],
+ "sfx": [
+  {
+   "t": 11.22,
+   "name": "paper",
+   "seed": 1,
+   "db": -18
+  },
+  {
+   "t": 20.56,
+   "name": "sub_drop",
+   "db": -16
+  },
+  {
+   "t": 23.62,
+   "name": "paper",
+   "seed": 2
+  },
+  {
+   "t": 24.04,
+   "name": "click",
+   "seed": 3
+  },
+  {
+   "t": 24.22,
+   "name": "click",
+   "seed": 4
+  },
+  {
+   "t": 24.51,
+   "name": "click",
+   "seed": 5
+  },
+  {
+   "t": 24.69,
+   "name": "click",
+   "seed": 6
+  },
+  {
+   "t": 25.52,
+   "name": "hit",
+   "db": -12
+  },
+  {
+   "t": 26.06,
+   "name": "boom",
+   "db": -13
+  },
+  {
+   "t": 26.47,
+   "name": "paper",
+   "seed": 3
+  },
+  {
+   "t": 32.22,
+   "name": "click",
+   "seed": 7
+  },
+  {
+   "t": 32.8,
+   "name": "click",
+   "seed": 8
+  },
+  {
+   "t": 33.48,
+   "name": "click",
+   "seed": 9
+  },
+  {
+   "t": 34.3,
+   "name": "sub_drop",
+   "db": -15
+  },
+  {
+   "t": 47.04,
+   "name": "hit",
+   "db": -12
+  },
+  {
+   "t": 47.64,
+   "name": "boom",
+   "db": -13
+  },
+  {
+   "t": 1.55,
+   "name": "paper"
+  }
+ ],
+ "elements": [
+  {
+   "type": "split",
+   "t0": 1.55,
+   "t1": 11.22,
+   "panel": {
+    "kind": "image",
+    "img": "images/casanova_narici.jpg",
+    "focus": [
+     0.24,
+     0.42
+    ],
+    "zoom": [
+     1.0,
+     1.1
+    ]
+   }
+  },
+  {
+   "type": "pill",
+   "t0": 1.8,
+   "t1": 11.12,
+   "y": 790,
+   "text": "Giacomo Casanova"
+  },
+  {
+   "type": "punch",
+   "t": 20.56
+  },
+  {
+   "type": "image",
+   "t0": 23.57,
+   "t1": 25.52,
+   "img": "images/casanova_narici.jpg",
+   "focus": [
+    0.32,
+    0.45
+   ],
+   "zoom": [
+    1.06,
+    1.14
+   ],
+   "dim": 0.45
+  },
+  {
+   "type": "orbit",
+   "t0": 23.83,
+   "t1": 25.52,
+   "chips": [
+    {
+     "img": "images/venice_bellotto.jpg",
+     "t": 24.04,
+     "t_out": 25.34,
+     "label": "Venice"
+    },
+    {
+     "img": "images/escape_plate.jpg",
+     "t": 24.22,
+     "t_out": 25.39,
+     "label": "Prison escape"
+    },
+    {
+     "img": "images/memoir_manuscript.jpg",
+     "t": 24.51,
+     "t_out": 25.45,
+     "label": "Memoirs"
+    },
+    {
+     "icon": "firework",
+     "t": 24.69,
+     "t_out": 25.51,
+     "label": "Adventures"
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "t0": 25.52,
+   "t1": 26.42,
+   "text": "It wasn't *a life.*"
+  },
+  {
+   "type": "punch",
+   "t": 26.06
+  },
+  {
+   "type": "split",
+   "t0": 26.47,
+   "t1": 34.49,
+   "panel": {
+    "kind": "framed",
+    "img": "images/casanova_1788.jpg",
+    "h": 480,
+    "caption": "Casanova at 63 · engraving, 1788"
+   }
+  },
+  {
+   "type": "pill",
+   "group": "strike",
+   "t0": 32.22,
+   "t1": 34.43,
+   "x": 260,
+   "y": 850,
+   "text": "Friends",
+   "strike": 32.34
+  },
+  {
+   "type": "pill",
+   "group": "strike",
+   "t0": 32.8,
+   "t1": 34.43,
+   "x": 540,
+   "y": 850,
+   "text": "Family",
+   "strike": 32.92
+  },
+  {
+   "type": "pill",
+   "group": "strike",
+   "t0": 33.48,
+   "t1": 34.43,
+   "x": 820,
+   "y": 850,
+   "text": "Partner",
+   "strike": 33.72
+  },
+  {
+   "type": "intense",
+   "t0": 26.52,
+   "t1": 30.17,
+   "zoom": 1.05,
+   "shake": 3
+  },
+  {
+   "type": "statement",
+   "t0": 47.04,
+   "t1": 48.9,
+   "text": "It ends in *nothing.*"
+  },
+  {
+   "type": "punch",
+   "t": 47.64
+  }
+ ],
+ "show": "The podcast"
+}

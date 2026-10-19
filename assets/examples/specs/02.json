@@ -1,0 +1,184 @@
+{
+ "base": "base/02.mp4",
+ "words": "words/02.json",
+ "out": "output/02_desert_island_test.mp4",
+ "emphasis": [
+  "desert",
+  "island",
+  "nobody",
+  "externally",
+  "motivated.",
+  "validation,",
+  "approval.",
+  "itself."
+ ],
+ "tail": 0.5,
+ "music": [
+  {
+   "file": "music/hans_zimmer_interstellar_main_theme.mp3",
+   "start": 14.0,
+   "db": -9,
+   "fade_in": 0.6,
+   "fade_out": 1.8
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.09,
+   "name": "click"
+  },
+  {
+   "t": 7.01,
+   "name": "paper"
+  },
+  {
+   "t": 11.76,
+   "name": "click",
+   "seed": 1
+  },
+  {
+   "t": 11.76,
+   "name": "glitch",
+   "db": -18
+  },
+  {
+   "t": 12.95,
+   "name": "hit",
+   "db": -12
+  },
+  {
+   "t": 13.78,
+   "name": "boom",
+   "db": -14
+  },
+  {
+   "t": 19.24,
+   "name": "click",
+   "seed": 2
+  },
+  {
+   "t": 19.35,
+   "name": "click",
+   "seed": 3
+  },
+  {
+   "t": 20.48,
+   "name": "click",
+   "seed": 4
+  },
+  {
+   "t": 21.49,
+   "name": "click",
+   "seed": 5
+  },
+  {
+   "t": 23.56,
+   "name": "sub_drop",
+   "db": -14
+  },
+  {
+   "t": 24.6,
+   "name": "paper",
+   "seed": 1
+  }
+ ],
+ "elements": [
+  {
+   "type": "title",
+   "t0": 0.09,
+   "t1": 5.02,
+   "kicker": "The podcast · Episode 26",
+   "text": "The desert island test",
+   "y": 210
+  },
+  {
+   "type": "split",
+   "t0": 7.01,
+   "t1": 12.95,
+   "panel": {
+    "kind": "grid",
+    "labels": [
+     "The podcast",
+     "Ep. 26 · Failure"
+    ],
+    "title": "The desert\nisland test",
+    "body": "Nobody would ever know.\nWould you still do it?",
+    "icons": [
+     {
+      "t": 7.01,
+      "name": "island"
+     },
+     {
+      "t": 11.76,
+      "name": "eye_slash"
+     }
+    ],
+    "icon_x": 760,
+    "icon_y": 470,
+    "icon_size": 420
+   }
+  },
+  {
+   "type": "statement",
+   "t0": 12.95,
+   "t1": 14.42,
+   "text": "would you still\n*do it?*"
+  },
+  {
+   "type": "punch",
+   "t": 13.78
+  },
+  {
+   "type": "orbit",
+   "t0": 19.22,
+   "t1": 23.8,
+   "speed": 0.55,
+   "chips": [
+    {
+     "icon": "heart",
+     "t": 19.24,
+     "t_out": 23.56,
+     "label": "Likes"
+    },
+    {
+     "icon": "eye",
+     "t": 19.35,
+     "t_out": 23.63,
+     "label": "Views"
+    },
+    {
+     "icon": "trophy",
+     "t": 20.48,
+     "t_out": 23.7,
+     "label": "Status"
+    },
+    {
+     "icon": "flag",
+     "t": 21.49,
+     "t_out": 23.8,
+     "label": "Approval"
+    }
+   ]
+  },
+  {
+   "type": "punch",
+   "t": 23.56
+  },
+  {
+   "type": "editorial",
+   "t0": 24.6,
+   "t1": 29.56,
+   "icon": "island",
+   "headline": "Would you still do it\nif no one knew?"
+  },
+  {
+   "type": "pill",
+   "t0": 17.6,
+   "t1": 19.15,
+   "y": 300,
+   "quote": true,
+   "text": "“Externally motivated”"
+  }
+ ],
+ "show": "The podcast"
+}
